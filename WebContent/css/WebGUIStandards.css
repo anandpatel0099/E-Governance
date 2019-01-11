@@ -1,0 +1,198 @@
+/**
+* 
+*/
+<style type="text/css">{  }
+/**
+*	Style sheet for hyper text reference
+*/
+/*
+a:link {font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:navy;font-weight:bold; font-size:12px }
+a:active { font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:navy;font-weight:bold; font-size:12px} 
+a:visited {font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:navy; font-weight:bold;font-size:12px }
+a:hover {font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:#990033;font-weight:bold; font-size:12px }
+a.Unreadfile:link{font-family:Arial, Helvetica, sans-serif;text-decoration:underline;color:red;font-weight:bold;size:12px}
+a.Unreadfile:active{font-family:Arial, Helvetica, sans-serif;text-decoration:underline;color:red;font-weight:bold;size:12px}
+a.Unreadfile:visited{font-family:Arial, Helvetica, sans-serif;text-decoration:underline;color:red;font-weight:bold;size:12px}
+a.Unreadfile:hover{font-family:Arial, Helvetica, sans-serif;text-decoration:underline;color:red;font-weight:bold;size:12px}
+
+a.file:link {font-family:Arial, Helvetica, sans-serif; text-decoration:underline; color:black;font-weight:normal; font-size:12px }
+a.file:active { font-family:Arial, Helvetica, sans-serif; text-decoration:underline; color:black;font-weight:normal; font-size:12px} 
+a.file:visited {font-family:Arial, Helvetica, sans-serif; text-decoration:underline; color:black; font-weight:normal;font-size:12px }
+a.file:hover {font-family:Arial, Helvetica, sans-serif;  text-decoration:underline; color:navy;font-weight:normal; font-size:12px }
+
+a.pagination:link {font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:navy;font-weight:normal; font-size:12px }
+a.pagination:active { font-family: Arial, Helvetica, sans-serif; text-decoration: none;color:navy;font-weight:normal; font-size: 12px} 
+a.pagination:visited {font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:navy; font-weight:normal;font-size:12px }
+a.pagination:hover {font-family:Arial, Helvetica, sans-serif; text-decoration: none; color:#990033;font-weight:normal; font-size:12px }
+*/
+/**
+* Background color for the title which appears as heading in a page
+* 
+*/
+//.TitleBG {background:#FFFFFF;font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;}
+.FileInfoBG {background: #F3F3F3}
+.TablerowBG1 {background: #F7F7F7}
+.TablerowBG2 {background: #FFFFFF}
+/*.TableHeaderBG { border-top-style : solid ; border-top-color :#B3D3AF; border-top-width: 1px;border-bottom-style : solid ; border-bottom-color :#B3D3AF; border-bottom-width: 1px;border-left-style : solid ; border-left-color :#B3D3AF; border-left-width: 1px;border-right-style : solid ; border-right-color :#B3D3AF; border-right-width: 1px;}*/
+/*.TableHeaderBG { background-image: url(../images/button1.png); border-style:solid;border-color:#000000;color:White }*/
+/*  .TableHeaderBG { background-image: url('../images/button1.png'); border:none; color:white;font-family:Arial, Helvetica, sans-serif;}*/
+
+/*By nikhil*/
+ .TableHeaderBG { background:#005B9A; border:none; color:white;padding-left:8px;height:18px;font-family:Arial, Helvetica, sans-serif;}
+/*end by nikhil*/
+.HLabel { font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;color:#FFFFFF}
+//.Label { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:#263765}
+.Label { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black}
+.LabelF11 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black}
+.Label2 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black}
+.Label3 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;text-align: left}
+.Label4 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black}
+.Label1 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12pxt;color:Navy}
+/*.titles{  font-family: Arial, Helvetica, sans-serif;text-align: center;font-size:10pt;color:black;font-weight: bold;}*/
+/*.titles{  font-family: Arial, Helvetica, sans-serif;text-align: center;font-size:10pt;color:#FFFFFF;font-weight: bold;}*/
+.HeaderLabel { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:#800000}
+.HeaderLabelF11 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black}
+.EditableField { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;}
+.EditableField1 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;}
+.ComputedField { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray}
+.FileInfoBG{background: #F3F3F3}
+.FeedbackHeader1{ text-align:left; height: 30px;border-collapse: collapse;font-weight:bold;padding-left:5px;font-size:2em;color:#a71305;border-bottom:1px dashed #848484;}
+.FeedbackHeader{ text-align:left; height: 30px;border-collapse: collapse;font-weight:bold;padding-left:5px;font-size:2em;color:#a71305;border-bottom:1px dashed #848484;}
+/**
+*	Use * for user text fields,means field should be filled in.
+*/
+.UserText { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Red}
+
+/**
+*	This style sheet for editable text field with 'Navy' color.
+*	BBN - Bottom Bottom Navy
+*	TBN - Top Bottom Navy
+*	LBN	- Left Bottom Navy
+*	RBN - Right Bottom Navy
+*/
+.EditableFieldBBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-bottom-style : solid ; border-bottom-color :navy; border-bottom-width: 1px;}
+.EditableFieldTBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-top-style : solid ; border-top-color :navy; border-top-width: 1px;}
+.EditableFieldLBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-left-style : solid ; border-left-color :navy; border-left-width: 1px;}
+.EditableFieldRBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-right-style : solid ; border-right-color :navy; border-right-width: 1px;}
+/**
+*	This style sheet for Computed text field with 'Navy' color.
+*	BBN - Bottom Bottom Navy
+*	TBN - Top Bottom Navy
+*	LBN	- Left Bottom Navy
+*	RBN - Right Bottom Navy
+*/
+.ComputedFieldBBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-bottom-style : solid ; border-bottom-color :navy; border-bottom-width: 1px;}
+.ComputedFieldTBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-top-style : solid ; border-top-color :navy; border-top-width: 1px;}
+.ComputedFieldLBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-left-style : solid ; border-left-color :navy; border-left-width: 1px;}
+.ComputedFieldRBN { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-right-style : solid ; border-right-color :navy; border-right-width: 1px;}
+/**
+*	This style sheet for editable text fields with 'Gray' color.
+*	BBN - Bottom Bottom Gray
+*	TBN - Top Bottom Gray
+*	LBN	- Left Bottom Gray
+*	RBN - Right Bottom Gray
+*/
+.EditableFieldBBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-bottom-style : solid ; border-bottom-color :Gray; border-bottom-width: 1px;}
+.EditableFieldTBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-top-style : solid ; border-top-color :Gray; border-top-width: 1px;}
+.EditableFieldLBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-left-style : solid ; border-left-color :Gray; border-left-width: 1px;}
+.EditableFieldRBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;border-right-style : solid ; border-right-color :Gray; border-right-width: 1px;}
+/**
+*	This style sheet for computed text field with 'Gray' color.
+*	BBN - Bottom Bottom Gray
+*	TBN - Top Bottom Gray
+*	LBN - Left Bottom Gray
+*	RBN - Right Bottom Gray
+*/
+.ComputedFieldBBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-bottom-style : solid ; border-bottom-color :Gray; border-bottom-width: 1px;}
+.ComputedFieldTBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-top-style : solid ; border-top-color :Gray; border-top-width: 1px;}
+.ComputedFieldLBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-left-style : solid ; border-left-color :Gray; border-left-width: 1px;}
+.ComputedFieldRBG { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray;border-right-style : solid ; border-right-color :Gray; border-right-width: 1px;}
+/**	This style sheet for  Text Field with a Look Of a Label 
+	with Font color 
+	M-Maroon
+	B-Black
+	W-White
+  SM-Selected
+*/
+.LabelFieldM{  font-family: Arial, Helvetica, sans-serif;text-align: left;font-size:12px;color:#660000;font-weight: bold;border-width:0px;background: #F3F3F3}
+.LabelFieldB{  font-family: Arial, Helvetica, sans-serif;text-align: left;font-size:12px;color:black;font-weight:normal;border-width:0px;background: #F3F3F3}
+.LabelFieldW{  font-family: Arial, Helvetica, sans-serif;text-align: center;font-size:12px;color:white;font-weight:bold;border-width:0px;background: #FFFFFF}
+.LabelFieldSM{  font-family: Arial, Helvetica, sans-serif;text-align: center;font-size:12px;color:#660000;font-weight: bold;border-width:0px;background: #999999}
+
+/**
+*	For Drop Down list box
+*/
+.ListBoxGUI { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black}
+.ListBoxGUIM { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:100;}
+.ListBoxGUIL { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:120;}
+/**
+*	For Home Page list box
+*/
+.ListBoxGUIA { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:navy;width:175;}
+.ListBoxGUI2 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;width:128; }
+.ListBoxGUI1 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;}
+.ListBoxGUI1 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Black;width:129; }
+.ListBoxGUI3 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:300; }
+.ListBoxGUI4 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:145; }
+/**
+*	This style sheet for table borders
+*/
+.TableBorderNavy {border-style : solid ; border-color :navy; border-width: 1px;}
+.TableBorderWhite {border-style : solid ; border-color :White; border-width: 1px;}
+.TableBorderGray {border-style : solid ; border-color :Gray; border-width: 1px;}
+/**
+*	This style sheet for Body content
+*/
+/*
+.Body { 
+background-image:url(../images/1page_BG.gif);
+font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold}*/
+/**
+*	Style sheet for table definition
+*/
+.TDPlain { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px}
+/*.ActionButtonTemplate{background-image:url(../images/HomePage/topnav_back.gif);border:none;color:white;font-family:Arial, Helvetica, sans-serif;font-size:12px;width :125px; height : 25px; }
+.ActionButton{background-image:url(../images/HomePage/topnav_back.gif);border:none;color:white;font-family:Arial, Helvetica, sans-serif;font-size:12px;width :100px; height : 25px; }*/
+/*By nikhil */
+.ActionButtonTemplate{background:#2883BF;border:none;color:white;font-family:Arial, Helvetica, sans-serif;font-size:12px;width :125px; height : 25px; }
+.ActionButton{background:#2883BF;border:none;color:white;font-family:Arial, Helvetica, sans-serif;font-size:12px;width :100px; height : 25px; }
+/*end bu nikhil */
+.ActionButtonbig{ font-size:12px;width:100}
+.FieldBlack { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:143; border-width: 1; border-style: "solid"; border-color: "#808080";}
+.FieldGrey { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold;color:Gray}
+.FieldBlack1 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:175}
+.FieldBlack3 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:120px; border-width: 1; border-style: "solid"; border-color: "#808080";}
+.FieldBlack5 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;border-width: 1; border-style: "solid"; border-color: "#808080";}
+.FieldBlack6 { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;border-width: 1;width:140px; border-style: "solid"; border-color: "#808080";}
+.FldHierarchy{font-family: Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #375472;}
+
+TD { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:bold}
+TH { color:navy;
+	 font-weight:bold;
+	 font-size:12px
+   }
+.LABLESAFE{background:'#7FFF7F' ; font-family:Arial;text-decoration: none;font-size:12px;font-weight:bold;color:Navy;}
+.LABLEUNSAFE{background:'#FF0000';font-family:Arial;text-decoration: none;font-size:12px;font-weight:bold;color:Navy;}
+.LabelUnRead { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Red}
+.LABLEC{font- color:'#000080'}
+.NewFormButton{background-color:#336699;border:none;color:white;font-family:Arial,Helvetica,sans-serif;font-size:12px;width:100px;height:25px;}
+.TextArea { font-family:Arial, Helvetica, sans-serif;text-decoration: none;font-size:12px;font-weight:normal;color:Black;width:300px; border-width: 1; border-style: "solid"; border-color: "#808080";}
+.tabStrip ul { margin: 0; padding: 0; list-style-type: none; }
+.tabStrip li { margin: 0 2px 0 0; list-style-type: none; float: left; width: 130px }
+.tabLink { display: block; text-decoration: none; padding: 5px;background: #e8e8e8; border: white solid; border-width: 1px 1px 0 1px; color: #2883BF; }
+.tabLinkActive { display: block; text-decoration: none; padding: 5px; background: #2883BF; border: white solid; border-width: 1px 1px 0 1px; color: #e8e8e8; }
+.tabContent { display: none; }
+.tabContentActive { display: block; clear: both; background: #f0f0f0; border: 1px #dedede solid; padding: 10px; }
+.countFontActive { text-decoration: none; font-weight: bold; padding: 5px; border-width: 1px 1px 0 1px; color:#FBF312; }
+.countFontInActive { text-decoration: none; font-weight: bold; padding: 5px; border-width: 1px 1px 0 1px; color:#F90101; }
+.tabStrip1 ul { margin: 0; padding: 0; list-style-type: none; }
+.tabStrip1 li { margin: 0 2px 0 0; list-style-type: none; float: left; width: 155px }
+
+.tabLinkECRC { display: block; height:30px;text-decoration: none; padding: 5px;background: #e8e8e8; border: white solid; border-width: 1px 1px 0 1px; color: #2883BF; }
+.tabLinkActiveECRC { display: block;height:30px; text-decoration: none; padding: 5px; background: #2883BF; border: white solid; border-width: 1px 1px 0 1px; color: #e8e8e8; }
+
+}
+</STYLE>

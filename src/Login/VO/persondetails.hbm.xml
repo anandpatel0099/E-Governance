@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Login.VO.persondetailsVO" table="person">
+		<id name="id" type="integer" column="id">
+			<generator class="increment"></generator>
+		</id>
+		
+		<property name="username" column="username" />
+		<property name="password" column="password" />
+		<property name="conpwd" column="conpwd" />
+		<property name="secque" column="secque" />
+		<property name="answer" column="answer" />
+		<property name="salutation" column="salutation" />
+		<property name="gender" column="gender" />
+		<property name="firstname" column="firstname" />
+		<property name="middlename" column="middlename" />
+		<property name="lastname" column="lastname" />
+		<property name="dob" column="dob" />
+		<property name="age" column="age" />
+		<property name="phoneno" column="phoneno" />
+		<property name="mobno" column="mobno" />
+		<property name="email" column="email" />
+		<property name="add1" column="add1" />
+		<property name="add2" column="add2" />
+		<property name="country" column="country" />
+		<property name="state" column="state" />
+		<property name="district" column="district" />
+		<property name="pin" column="pin" />
+		<property name="padd1" column="padd1" />
+		<property name="padd2" column="padd2" />
+		<property name="pcountry" column="pcountry" />
+		<property name="pstate" column="pstate" />
+		<property name="pdistrict" column="pdistrict" />
+		<property name="ppin" column="ppin" />
+		<property name="nationality" column="nationality" />
+		<property name="occupation" column="occupation" />
+		<property name="religion" column="religion" />
+		<property name="category" column="category" />
+		<property name="caste" column="caste" />
+		<property name="subcaste" column="subcaste" />
+		<property name="idproof" column="idproof" />
+		<property name="cardno" column="cardno" />
+		<property name="placeofissue" column="placeofissue" />
+		<property name="dateofissue" column="dateofissue" />
+		<property name="withnewpwd" column="withnewpwd" />
+		<property name="customertype" column="customertype" />
+		
+	</class>
+
+</hibernate-mapping>

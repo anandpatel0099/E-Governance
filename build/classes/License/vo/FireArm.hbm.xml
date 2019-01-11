@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="License.vo.FireArmVO" table="FireArmTable">
+		<id name="id" type="integer" column="id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="TokenNumber" column="TokenNumber" type="integer" />
+		<property name="ApplicationName" column="ApplicationName" />
+		<property name="ApplicantName" column="ApplicantName" />
+		<property name="DateofSubmit" column="DateofSubmit" />
+		<property name="Status" column="Status" />
+		<property name="Religion" column="Religion"/>
+		<property name="Occupation" column="Occupation"/>
+		<property name="Designation" column="Designation"/>
+		<property name="FatherName" column="FaherName"/>
+		<property name="FatherDOB" column="FatherDOB"/>
+		<property name="FatherAge" column="FatherAge"/>
+		<property name="MotherName" column="MotherName"/>
+		<property name="MotherDOB" column="MotherDOB"/>
+		<property name="MotherAge" column="MotherAge"/>
+		<property name="SpouseName" column="SpouseName"/>
+		<property name="SpouseDOB" column="SpouseDOB"/>
+		<property name="SpouseAge" column="SpouseAge"/>
+		<property name="Convicted" column="Convicted"/>
+		<property name="PeriodFrom" column="PeriodFrom"/>
+		<property name="PeriodTo" column="PeriodTo"/>
+		<property name="Prohibited" column="Prohibited"/>
+		<property name="applied" column="applied"/>
+		<property name="suspended" column="suspended"/>
+		<property name="Possessor" column="Possessor"/>
+		<property name="exemptee" column="exemptee"/>
+		<property name="check1" column="check1"/>
+		<property name="need" column="need"/>
+		<property name="description" column="description"/>
+		<property name="area" column="area"/>
+		<property name="kept" column="kept"/>
+		<property name="otherpart" column="otherpart"/>
+		<property name="claims" column="claims"/>
+		<property name="un" column="un"/>
+	</class>
+</hibernate-mapping>

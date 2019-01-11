@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="Income.vo.incomeVO" table="IncomeTable">
+		<id name="id" type="integer" column="id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="TokenNumber" column="TokenNumber" type="integer" />
+		<property name="ApplicationName" column="ApplicationName" />
+		<property name="ApplicantName" column="ApplicantName" />
+		<property name="DateofSubmit" column="DateofSubmit" />
+		<property name="Status" column="Status" />
+		<property name="un" column="un" />
+		
+		<property name="fthn" column="fthn" />
+		<property name="fthdob" column="fthdob" />
+		<property name="fthage" column="fthage" />
+		<property name="fthocc" column="fthocc" />
+		
+		<property name="mthn" column="mthn" />
+		<property name="mthdob" column="mthdob" />
+		<property name="mthage" column="mthage" />
+		<property name="mthocc" column="mthocc" />
+		
+		<property name="sthn" column="sthn" />
+		<property name="sthdob" column="sthdob" />
+		<property name="sthage" column="sthage" />
+		<property name="sthocc" column="sthocc" />
+		
+		<property name="fthin" column="fthin" />
+		<property name="mthin" column="mthin" />
+		<property name="sthin" column="sthin" />
+		<property name="othin" column="othin" />
+		<property name="totalin" column="totalin" />
+		<property name="totalinw" column="totalinw" />
+		<property name="pfic" column="pfic" />
+
+		
+	</class>
+</hibernate-mapping>
